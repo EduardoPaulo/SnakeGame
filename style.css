@@ -9,3 +9,31 @@ body{
     color: lightgreen;
     background-color: rgb(54, 172, 54);
 }
+
+#card{    
+    color: black;
+    font-size: 30px;
+    font-family: arial;
+    background-color:white;
+    width:570px;
+    height:250px;
+    padding: 15px;
+    border-radius:7px;
+    text-align: center;
+    position:absolute;  
+    border: inset 2px black;
+    display:none;
+}
+
+#card>button {
+    border-radius: 7px;
+    border: 1px black solid;
+    background-color: transparent;
+    padding: 10px;
+}
+
+#card>button:hover{
+    background-color: lightgreen;
+    color:green;
+    border:green;
+}
