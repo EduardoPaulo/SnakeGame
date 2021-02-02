@@ -82,6 +82,7 @@ function iniciarJogo(){
                 }
                 //reinicia a pontuação
                 food.score=0;
+                pontos.innerText="Score: 0"
                 // " Dá play no jogo "
                 iniciarJogo();
             })
