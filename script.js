@@ -1,8 +1,7 @@
 //Elemento cavas do html
 let canvas  = document.getElementById('snake');
 //contexto. pode ser 2d (que rendeniza um gráfico 2d), webgl ou webgl2 (que rendenizam gráfico 3d), ou bitmaprenderer possibilitando inserir uma imagem bitmap. 
-//https://www.webcodegeeks.com/html5/html5-3d-canvas-tutorial/
-//https://developer.mozilla.org/pt-BR/docs/Web/API/HTMLCanvasElement/getContext
+
 let context = canvas.getContext('2d');
 let box     = 32;
 //as posições de cada pixel da cobra
